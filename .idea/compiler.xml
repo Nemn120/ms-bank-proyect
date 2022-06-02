@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="appinvoice" />
+        <module name="apppay" />
+        <module name="appconfig" />
+        <module name="apptransaction" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="appaccount" target="11" />
+      <module name="appconfig" target="11" />
+      <module name="appdeposit" target="11" />
+      <module name="appgateway" target="11" />
+      <module name="appinvoice" target="11" />
+      <module name="appmovements" target="11" />
+      <module name="apppay" target="11" />
+      <module name="appsecurity" target="11" />
+      <module name="apptransaction" target="11" />
+      <module name="apptransactions" target="11" />
+      <module name="appwithdrawal" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="appaccount" options="-parameters" />
+      <module name="appconfig" options="-parameters" />
+      <module name="appdeposit" options="-parameters" />
+      <module name="appgateway" options="-parameters" />
+      <module name="appinvoice" options="-parameters" />
+      <module name="appmovements" options="-parameters" />
+      <module name="apppay" options="-parameters" />
+      <module name="appsecurity" options="-parameters" />
+      <module name="apptransaction" options="-parameters" />
+      <module name="apptransactions" options="-parameters" />
+      <module name="appwithdrawal" options="-parameters" />
+    </option>
+  </component>
+</project>

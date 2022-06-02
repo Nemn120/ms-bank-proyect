@@ -1,0 +1,56 @@
+
+-- SCRIPT DB INVOICE
+
+CREATE DATABASE db_invoice;
+
+create table customer
+(
+    idcustomer serial
+        constraint customer_pkey
+            primary key,
+    email      varchar(255),
+    fullname   varchar(255)
+);
+
+INSERT INTO public.customer (idcustomer, email, fullname) VALUES (1, 'Gianluca Lapadula', 'glapadula@aforo255.com');
+INSERT INTO public.customer (idcustomer, email, fullname) VALUES (2, 'Leonel Messi', 'lmessi@aforo255.com');
+INSERT INTO public.customer (idcustomer, email, fullname) VALUES (3, 'Paolo Guerrero', 'pguerrero@aforo255.com');
+INSERT INTO public.customer (idcustomer, email, fullname) VALUES (4, 'Andrea Pirlo', 'apirlo@aforo255.com');
+INSERT INTO public.customer (idcustomer, email, fullname) VALUES (5, 'Renato Tapia', 'rtapia@aforo255.com');
+
+create table invoice
+(
+    id_invoice integer not null
+        constraint invoice_pkey
+            primary key,
+    amount     numeric(18, 2),
+    idcustomer integer
+        constraint fk60st599aassmdiorgxqffm929
+            references customer,
+    state      integer
+);
+
+INSERT INTO public.invoice (id_invoice, amount, idcustomer, state) VALUES (2, 5000.00, 1, 0);
+INSERT INTO public.invoice (id_invoice, amount, idcustomer, state) VALUES (3, 300.00, 2, 0);
+INSERT INTO public.invoice (id_invoice, amount, idcustomer, state) VALUES (4, 600.00, 1, 0);
+INSERT INTO public.invoice (id_invoice, amount, idcustomer, state) VALUES (5, 400.00, 2, 0);
+INSERT INTO public.invoice (id_invoice, amount, idcustomer, state) VALUES (6, 100.00, 1, 0);
+INSERT INTO public.invoice (id_invoice, amount, idcustomer, state) VALUES (7, 1000.00, 3, 0);
+INSERT INTO public.invoice (id_invoice, amount, idcustomer, state) VALUES (8, 2000.00, 4, 0);
+INSERT INTO public.invoice (id_invoice, amount, idcustomer, state) VALUES (9, 5000.00, 5, 0);
+INSERT INTO public.invoice (id_invoice, amount, idcustomer, state) VALUES (10, 1000.00, 2, 0);
+INSERT INTO public.invoice (id_invoice, amount, idcustomer, state) VALUES (1, 10.00, 1, 0);
+
+-- SCRIPT DB PAYMENT
+
+CREATE DATABASE  db_operation;
+
+create table payment
+(
+    idOperation int auto_increment
+        primary key,
+    id_invoice  int         null,
+    amount      decimal     null,
+    type        varchar(30) null,
+    date        varchar(30) null
+);

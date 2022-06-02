@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/appconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/appaccount/pom.xml" />
+        <option value="$PROJECT_DIR$/appdeposit/pom.xml" />
+        <option value="$PROJECT_DIR$/appwithdrawal/pom.xml" />
+        <option value="$PROJECT_DIR$/appgateway/pom.xml" />
+        <option value="$PROJECT_DIR$/appinvoice/pom.xml" />
+        <option value="$PROJECT_DIR$/apppay/pom.xml" />
+        <option value="$PROJECT_DIR$/apptransaction/pom.xml" />
+        <option value="$PROJECT_DIR$/apptransaction/pom.xml.bak" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

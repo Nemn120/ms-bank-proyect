@@ -1,0 +1,13 @@
+
+g	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(Ÿªõµûÿÿÿÿ8â¦È0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÜËÌ8Şâ¦È0
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(Û²ı‡ÿÿÿÿÿ8Šã¦È0
+T	java:S106)"9Replace this use of System.out or System.err by a logger.(Û¹”c8èã¦È0
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(éÕÿ§ûÿÿÿÿ8íã¦È0
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(ã´¿×8ôã¦È0
+D
+java:S14817"(Remove this unused "jwt" local variable.(À±´V8—ä¦È0
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(ŞÎİÍıÿÿÿÿ8šä¦È0
+U	java:S106="9Replace this use of System.out or System.err by a logger.(­şÎ’8œä¦È0
+d
+java:S2094B"BRemove this empty class, write its code or make it an "interface".(¦Á¦¼ıÿÿÿÿ8 ä¦È0

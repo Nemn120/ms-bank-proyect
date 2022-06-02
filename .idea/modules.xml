@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/appconfig/appconfig.iml" filepath="$PROJECT_DIR$/appconfig/appconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appinvoice/appinvoice.iml" filepath="$PROJECT_DIR$/appinvoice/appinvoice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apppay/apppay.iml" filepath="$PROJECT_DIR$/apppay/apppay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apptransaction/apptransaction.iml" filepath="$PROJECT_DIR$/apptransaction/apptransaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/proyects-aforo255.iml" filepath="$PROJECT_DIR$/.idea/proyects-aforo255.iml" />
+    </modules>
+  </component>
+</project>
