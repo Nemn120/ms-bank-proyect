@@ -18,27 +18,27 @@ docker-compose -f .\compose-service-docker-test.yaml up -d
 Pasos a ejecutar para cada microservicio dentro de la carpeta que contiene el microservicio.
 #### MS Config:
 ```sh
- mvn clean install
- docker build -t appconfig .
+mvn clean install
+docker build -t appconfig .
 docker run -p 8088:8888 --name app-config --network aforo255-test -d appconfig
 ```
 #### MS Invoice:
 ```sh
- mvn clean install
+mvn clean install
 docker build -t appinvoice .
 docker run -p 5005:5005 --name app-appinvoice --network aforo255-test -d appinvoice 
 ```
 #### MS Transaction:
 ```sh
- mvn clean install
+mvn clean install
 docker build -t apptransaction .
-docker run -p 5004:5004 --name app-transaction--network aforo255-test -d apptransaction
+docker run -p 5004:5004 --name app-transaction --network aforo255-test -d apptransaction
 ```
 #### MS Payment:
 ```sh
- mvn clean install
+mvn clean install
 docker build -t apppay .
-docker run -p 5003:5003 --name app-pay--network aforo255-test -d apppay
+docker run -p 5003:5003 --name app-pay --network aforo255-test -d apppay
 ```
 #### Cloud Config - Credenciales:
 GitHub que contiene las credenciales de la configuración centralizada.
